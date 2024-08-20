@@ -1,0 +1,176 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/*Heading style*/
+.heading {
+  font-size: 14px;
+}
+
+/*==================TOPBAR STYLE==================*/
+
+/*Topbar ul style*/
+
+.topbar {
+  height: 50px;
+  background: white;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 1000;
+  border-bottom: 1px solid lightgray;
+}
+
+/*Styling for li breadcrumbs*/
+
+.items-bread {
+  display: inline;
+  position: absolute;
+  left: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*Stying for li search*/
+
+.items-search {
+  position: absolute;
+  display: inline;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30%;
+}
+
+/*==================CARD STYLE==================*/
+
+
+.card {
+  min-width: 200px;
+  min-height: 250px;
+  box-shadow: rgb(245, 245, 245, 0.5) 0 0 0 7px;
+  height: 100%;
+}
+
+/*==================OUTER CONTAINER STYLE==================*/
+
+
+.container {
+  padding: 5px 45px 45px 45px;
+  margin: 0;
+  background: #e2eaf3;
+  min-width: 250px;
+  min-height: calc(100vh - 52px);
+}
+
+/*==================FORM INPUT STYLE==================*/
+
+
+.input-field {
+  width: 100%;
+}
+
+/*==================GENERAL DESIGN CONSIDERATIONS FOR ANTD ELEMENTS==================*/
+
+
+.ant-input-group-addon .ant-btn-primary {
+  background: transparent !important;
+  color: black;
+}
+
+.ant-card-head {
+  border-bottom: 0 !important;
+}
+
+.ant-card-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-drawer-close {
+  color: white !important;
+  position: absolute;
+  right: 0;
+}
+
+.ant-tabs-nav {
+  width: fit-content;
+}
+
+.ant-tabs {
+  width: 100%;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: darkblue !important;
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+  background: darkblue !important;
+}
+
+.ant-checkbox-wrapper {
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: darkblue !important;
+}
+
+.ant-checkbox-group {
+  width: 100%;
+}
+
+.ant-empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*==================BUTTON CONTAINER==================*/
+
+.btn-container {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+/*==================CANCEL BUTTON STYLE==================*/
+
+.cancel-btn {
+  border: 2px solid #132f44;
+  color: darkblue;
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+/*==================CONFIRM BUTTON STYLE==================*/
+
+
+.confirm-btn {
+  border: 2px solid #132f44;
+  color: white;
+  background-color: #132f44;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 20px;
+}

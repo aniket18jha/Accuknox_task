@@ -1,0 +1,72 @@
+{
+    "categories": [
+        {
+            "id": "cspm",
+            "name": "CSPM Executive Dashboard",
+            "slug": "CSPM",
+            "widgets": [
+                {
+                    "widgetId": "1",
+                    "widgetName": "Cloud Accounts",
+                    "widgetText": "Sample widget text."
+                },
+                {
+                    "widgetId": "2",
+                    "widgetName": "Cloud Account Risk Assessment",
+                    "widgetText": "Lorem ipsum sit amet."
+                }
+            ]
+        },
+        {
+            "id": "cwpp",
+            "name": "CWPP Dashboard",
+            "slug": "CWPP",
+            "widgets": [
+                {
+                    "widgetId": "1",
+                    "widgetName": "Top 5 Namespace Specific Alerts",
+                    "widgetText": "My widget text."
+                },
+                {
+                    "widgetId": "2",
+                    "widgetName": "Workload Alerts",
+                    "widgetText": ""
+                }
+            ]
+        },
+        {
+            "id": "image",
+            "name": "Image Risk Assessment",
+            "slug": "Image",
+            "widgets": [
+                {
+                    "widgetId": "1",
+                    "widgetName": "Image Risk Assessment",
+                    "widgetText": "This is image risk assessment widget"
+                },
+                {
+                    "widgetId": "2",
+                    "widgetName": "Image Security Issues",
+                    "widgetText": ""
+                }
+            ]
+        },
+        {
+            "id": "ticket",
+            "name": "Ticket Dashboard",
+            "slug": "Ticket",
+            "widgets": [
+                {
+                    "widgetId": "1",
+                    "widgetName": "Sample Widget-1",
+                    "widgetText": "This is ticket widget"
+                },
+                {
+                    "widgetId": "2",
+                    "widgetName": "Sample Widget-2",
+                    "widgetText": ""
+                }
+            ]
+        }
+    ]
+}
