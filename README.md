@@ -1,5 +1,5 @@
 # accuknox-dashboard-project
-Thank you for visiting my Project. This project is a part of the selection process for the role of Frontend Developer at Accuknox.
+Thank you for visiting my Project. This project is a part of the selection process for the role of Frontend trainee at Accuknox.
 
 Tech Stacks:
 1. React.js
